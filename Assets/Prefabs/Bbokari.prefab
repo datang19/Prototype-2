@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 8468332929984925599}
   - component: {fileID: 8468332929991929553}
   - component: {fileID: 8468332929258403168}
+  - component: {fileID: 2113779195}
   m_Layer: 0
   m_Name: Bbokari
   m_TagString: Untagged
@@ -194,6 +195,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+--- !u!114 &2113779195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8468332929984616295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3c32db2476a4ce6a865fec33e22f07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8468332929984622827
 GameObject:
   m_ObjectHideFlags: 0

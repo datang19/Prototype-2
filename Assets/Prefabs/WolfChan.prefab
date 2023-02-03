@@ -5587,6 +5587,7 @@ GameObject:
   - component: {fileID: 809353628580368380}
   - component: {fileID: 809353628587628852}
   - component: {fileID: 809353628685911896}
+  - component: {fileID: 785031597}
   m_Layer: 0
   m_Name: WolfChan
   m_TagString: Untagged
@@ -5679,6 +5680,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+--- !u!114 &785031597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809353628580304012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3c32db2476a4ce6a865fec33e22f07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &809353628580304740
 GameObject:
   m_ObjectHideFlags: 0
