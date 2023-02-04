@@ -5588,6 +5588,8 @@ GameObject:
   - component: {fileID: 809353628587628852}
   - component: {fileID: 809353628685911896}
   - component: {fileID: 785031597}
+  - component: {fileID: 2059179030475676752}
+  - component: {fileID: 3296148910840487822}
   m_Layer: 0
   m_Name: WolfChan
   m_TagString: Untagged
@@ -5690,6 +5692,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d3c32db2476a4ce6a865fec33e22f07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &2059179030475676752
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809353628580304012}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.24225575, y: 0.21846345, z: 0.31465378}
+  m_Center: {x: 0.0037575827, y: 0.09752064, z: 0.028443456}
+--- !u!114 &3296148910840487822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809353628580304012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 305e37607f9764d37a14d84ec0c22582, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &809353628580304740
